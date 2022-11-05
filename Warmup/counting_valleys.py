@@ -15,7 +15,7 @@ def countingValleys(steps, path):
             res+=1
     return res
 if __name__ == '__main__':
-    steps = 8 #int(input().strip())
-    path = 'UDDDUDUU' #input()
+    steps =int(input().strip())
+    path = input()
     result = countingValleys(steps, path)
     print(result)
